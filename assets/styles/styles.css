@@ -1,0 +1,59 @@
+body {
+    background-image: url("../img/bg-img-coding.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #cccccc;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 5em 2em;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1.25em;
+    text-align: center;
+}
+
+.section-text {
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 1em;
+    padding: 1em 0;
+    background-color: #5656d1;
+    text-align: center;
+    border-radius: .7em;
+}
+
+.form-text {
+    margin-bottom: 3em;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin: .5em 0;
+}
+
+.input-msg-erro {
+    display: none;
+}
+
+.form-btn {
+    margin: 1em 0;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
