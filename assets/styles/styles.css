@@ -51,7 +51,7 @@ body {
 
 .input-box {
     margin: .5em 0;
-    padding: 1.5em 0;
+    padding: 1.5em 0 1.5em 1em;
     border: .15em solid #ebe8e8;
     border-radius: .55em;
 }
@@ -73,10 +73,12 @@ body {
     border-radius: .55em;
     color: #ffffff;
     font-weight: 700;
+    transition: 1s;
 }
 
 .form-btn:hover {
     cursor: pointer;
+    background-color: #108a4f;
 }
 
 .text-agree {
@@ -87,11 +89,11 @@ body {
 .agree-link {
     text-decoration: none;
     color: #8989fa;
+    font-weight: 700;
 }
 
 .agree-link-form {
     color: #f55b5b;
-    font-weight: 700;
 }
 
 .footer-text {
