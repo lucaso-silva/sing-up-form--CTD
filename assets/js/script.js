@@ -1,4 +1,16 @@
 const formFields = document.querySelectorAll("[required]");
+const form = document.querySelector("[data-form]");
+
+form.addEventListener("submit", (e) => {
+
+    const answerList = {
+        "firstName": e.target.elements["firstName"].value,
+        "lastName": e.target.elements["lastName"].value,
+        "email": e.target.elements["email"].value
+    }
+
+    localStorage.setItem("recordList", JSON.stringify(answerList));
+})
 
 formFields.forEach((field) => {
     field.addEventListener("blur", () => verificaCampo(field));
@@ -45,13 +57,15 @@ function verificaCampo(field) {
         }
     });
 
-    const errorMessage = field.parentNode.querySelector(".input-msg-error")
+    const errorMessage = field.parentNode.querySelector(".input-msg-error");
+    const inputError = field.parentNode.querySelector("[data-input]");
     const inputValidity = field.checkValidity();
 
     if(!inputValidity) {
         errorMessage.textContent = message;
-    
+        inputError.classList.add("input-box-error")
     } else {
         errorMessage.textContent = "";
+        inputError.classList.remove("input-box-error")
     }
 }

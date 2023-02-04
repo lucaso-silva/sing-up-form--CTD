@@ -21,23 +21,23 @@
             <p class="section-text">See how experienced developers solve problems in real-time. Watching scripted
                 tutorials is great, but understanding how developers think is invaluable.</p>
         </section>
-        <section>
+        <section class="form-questions">
             <h2 class="form-title"><strong>Try it free 7 days </strong> then $20/mo. thereafter</h2>
-            <form class="card-form">
+            <form class="card-form" data-form>
                 <fieldset class="form-input">
-                    <input type="text" name="firstName" placeholder="First Name" id="firstName" class="input-box" minlength="3" required>
+                    <input type="text" name="firstName" placeholder="First Name" id="firstName" class="input-box" data-input minlength="3" required>
                     <span class="input-msg-error"></span>
                 </fieldset>
                 <fieldset class="form-input">
-                    <input type="text" name="lastName" placeholder="Last Name" id="lastName" class="input-box" minlength="3" required>
+                    <input type="text" name="lastName" placeholder="Last Name" id="lastName" class="input-box" data-input minlength="3" required>
                     <span class="input-msg-error"></span>
                 </fieldset>
                 <fieldset class="form-input">
-                    <input type="email" name="email" placeholder="Email Address" id="email" class="input-box" required>
+                    <input type="email" name="email" placeholder="Email Address" id="email" class="input-box" data-input required>
                     <span class="input-msg-error"></span>
                 </fieldset>
                 <fieldset class="form-input">
-                    <input type="password" name="password" placeholder="Password" id="password" class="input-box" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}$" title="Password must be between 6 and 10 characters, at least and one upper case letter, one lower case letter, and one numeric digit." required>
+                    <input type="password" name="password" placeholder="Password" id="password" class="input-box" data-input pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}$" title="Password must be between 6 and 10 characters, at least and one upper case letter, one lower case letter, and one numeric digit." required>
                     <span class="input-msg-error"></span>
                 </fieldset>
                 <button type="submit" class="form-btn">Claim your free trial</button>
