@@ -37,7 +37,7 @@ const mens = {
 
     email: {
         valueMissing: "Email cannot be empty",
-        typeMismatch: "Looks like this is not a valid email."
+        typeMismatch: "Looks like this is not a valid email. Email must be like: example@email.com"
     },
 
     password: {
