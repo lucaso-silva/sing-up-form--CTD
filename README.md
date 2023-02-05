@@ -34,7 +34,7 @@ Users should be able to:
         inputError.classList.remove("input-box-error")
     }
 ```
-
+---
 ### 🏅 Acknowledgments
 - Pedro Marins and Henrique de Andrade challenged me to build and publish this project. 
 - Tutors and colleagues from the mentorship "Coquiste sua vaga" - class 23.
