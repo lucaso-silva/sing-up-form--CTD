@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
 
 formFields.forEach((field) => {
     field.addEventListener("blur", () => verificaCampo(field));
-    field.addEventListener("invalid", evento => evento.preventDefault());
+    field.addEventListener("invalid", (evento) => evento.preventDefault());
 });
 
 const errorTypes = [
