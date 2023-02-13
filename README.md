@@ -25,7 +25,7 @@ Users should be able to:
 - Use CSS pseudo-element: `::placeholder`
 - Developing validations in the input fields using JavaScript
 - Add and remove **HTML .classes** using JavaScript
-``` 
+```JavaScript 
  if(!inputValidity) {
         errorMessage.textContent = message;
         inputError.classList.add("input-box-error")
